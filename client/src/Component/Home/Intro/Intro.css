@@ -1,0 +1,37 @@
+
+.intro_first_main{
+
+    background-color: rgb(5 9 22) !important;
+}
+.intro_div{
+
+    padding: 4rem 0px;
+}
+.intro_first p{
+
+    font-size: 18px;
+    color: rgb(170 166 195);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+.intro_first h2{
+    font-size: 60px;
+    color: rgb(255 255 255);
+    font-weight: 900;
+}
+.intro_p{
+    color: rgb(170 166 195 );
+    line-height: 30px;
+    font-size: 17px;
+    max-width: 48rem;
+}
+
+.resume_butt{
+    color: rgb(255 255 255);
+    font-weight: 700;
+    padding: 1rem;
+    background-color: rgb(21 16 48);
+
+    border-radius: 1rem;
+    border: none;
+}
