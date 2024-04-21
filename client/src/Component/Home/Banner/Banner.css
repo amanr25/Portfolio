@@ -1,0 +1,68 @@
+.banner_back{
+    background-image: url("../../../Images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90svh;
+    width: 100%;
+}
+
+.first_box{
+    padding-top: 70px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 1.25rem;
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.first_line_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line_circle_top{
+    background-color: rgb(145 94 255);
+    border-radius: 9999px;
+    width: 1.25rem;
+    height: 1.25rem;
+
+}
+.straight_line_bottom {
+    height: 20rem; /* Start with full height */
+    background: -webkit-linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+    width: .25rem;
+    transform: scaleY(0); /* Initially hide the div by scaling it to 0 vertically */
+    transform-origin: bottom; /* Set the transform origin to bottom */
+    animation: showLine 2s forwards; /* Use a CSS animation named 'showLine' with a duration of 1 second */
+}
+
+@keyframes showLine {
+    from {
+        transform: scaleY(0); /* Start with no height */
+    }
+    to {
+        transform: scaleY(1); /* End with full height */
+    }
+}
+.second_box h1{
+    line-height: 98px;
+    font-size: 80px;
+    color: rgb(255 255 255 );
+    font-weight: 900;
+}
+
+.second_box p{
+
+    line-height: 40px;
+    font-size: 30px;    
+    color: rgb(243 243 243);
+    font-weight: 500;
+
+}
+.second_box span{
+    color: rgb(145 94 255);
+}
