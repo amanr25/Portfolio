@@ -1,0 +1,161 @@
+.heading_exp p{
+
+    font-size: 18px;
+    color: rgb(170 166 195 );
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+.heading_exp h2{
+    font-size: 60px;
+    color: rgb(255 255 255);
+    font-weight: 900;
+}
+.experience_line_div{
+    display: flex;
+    flex-direction: column;
+}
+.experience_second{
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2em 0;
+}
+.experience_second::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: white;
+    left: 50%;
+    margin-left: -2px;
+}
+.experience_second::after{
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.experience_vertical{
+    position: relative;
+}
+.experience_vertical_span{
+    background: rgb(56, 62, 86);
+    visibility: visible;
+    animation: cd-bounce-1 .6s;
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #fff, inset 0 2px #00000014, 0 3px 0 4px #0000000d;
+}
+.image_main_div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.image_main_div img{
+    height: 60%;
+    width: 60%;
+    object-fit: contain;
+}
+.experience_detail_div{
+    background: rgb(29, 24, 54);
+    color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 0 3px #ddd;
+    margin-left: 0;
+    padding: 1.5em;
+    width: 44%;
+    border-radius: .25em;
+}
+.experience_detail_div_right{
+    background: rgb(29, 24, 54);
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-left: 0;
+    padding: 1.5em;
+    width: 44%;
+    position: relative;
+    border-radius: .25em;
+    box-shadow: 0 3px #ddd;
+
+}
+.arrow_icon_right{
+
+   
+    top: 12px;
+    font-size: 30px;
+    left: 98%;
+    position: absolute;
+    right: 100%;
+    color: rgb(35, 38, 49);
+}
+.arrow_icon_left{
+    top: 16px;
+    left: auto;
+    right: 98%;
+    font-size: 30px;
+    position: absolute;
+    color: rgb(35, 38, 49);
+
+
+
+}
+.experence_com_detail h3{
+    color: rgb(255 255 255);
+
+    font-weight: 700;
+    font-size: 24px;
+}
+.experence_com_detail p{
+
+    font-size: 16px;
+    line-height: 1.6;color: rgb(170 166 195);font-weight: 500;
+}
+.experience_ul{
+
+    list-style-type: disc;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    padding: 0;
+}
+.experience_ul li{
+    letter-spacing: .05em;
+    font-size: 14px;
+    padding-left: .25rem;
+}
+.present_experiecne_comp{
+    position: absolute;
+    width: 100%;
+    left: 124%;
+    top: 6px;
+    font-size: 16px;
+    
+    float: left;
+    padding: .8em 0;
+    opacity: .7;
+    font-weight: 500;
+        display: inline-block;
+}
+.present_experiecne_comp_left{
+    left: auto;
+    right: 124% !important;
+    text-align: right;
+    position: absolute;
+    width: 100%;
+        top: 6px;
+    font-size: 16px;
+
+    float: left;
+    padding: .8em 0;
+    opacity: .7;
+    font-weight: 500;
+}
